@@ -31,7 +31,7 @@ void displayResults(int marks[], int n)
         if (marks[i] < lowest)
             lowest = marks[i];
 
-        if (marks[i] >= 40)
+        if (marks[i] >= 45)
             passed++;
         else
             failed++;
